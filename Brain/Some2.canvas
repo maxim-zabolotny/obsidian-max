@@ -1,0 +1,12 @@
+{
+	"nodes":[
+		{"id":"4d1bf8d1f14bb64c","x":-440,"y":-260,"width":250,"height":60,"type":"text","text":"Что делать дальше?"},
+		{"id":"63b9882617af72b8","type":"text","text":"Что будет зимой например когда будет дистанционка","x":-100,"y":130,"width":250,"height":120},
+		{"id":"958b8ad606d06a85","type":"text","text":"Настаивать на отношениях","x":-520,"y":160,"width":250,"height":60},
+		{"id":"87f73b568565f154","type":"text","text":"Поговорить","x":-100,"y":-260,"width":250,"height":60},
+		{"id":"aea664c2ba67aa09","type":"text","text":"**Дать заднюю**\nСказать чтобы ","x":260,"y":-170,"width":380,"height":360}
+	],
+	"edges":[
+		{"id":"772bfb7fb8745421","fromNode":"958b8ad606d06a85","fromSide":"right","toNode":"63b9882617af72b8","toSide":"left"}
+	]
+}

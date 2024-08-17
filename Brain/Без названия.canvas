@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"cde21e2f12ec560f","type":"file","file":"Work/Kermit/Базы/RegRu.md","x":-600,"y":-400,"width":400,"height":400},
+		{"id":"d21079f56f79cd33","type":"text","text":"## Сформировать новую таблицу\n","x":480,"y":-545,"width":289,"height":145},
+		{"id":"b88a545338c4689e","type":"text","text":"## Сделать логику под текущий вид\n\nПо сути в юзер инфо одна строка для юзера она просто разбита на несколько строк. ","x":480,"y":-200,"width":289,"height":280},
+		{"id":"eccfc1a21370d3d9","type":"text","text":"#  Нормализация","x":0,"y":-400,"width":250,"height":161},
+		{"id":"c8959bc298f2b57c","type":"text","text":"### Сделать логику под текущий вид\n\nПроблема в сложности запроса и то что инфа бдует дублироваться и проблемы при поиске, не ясно где искать \nДетлаки на таблице долго получаются\n\n","x":480,"y":200,"width":289,"height":132},
+		{"id":"1726447ae6fa7ecb","type":"text","text":"### Убрать дубли\n**Готово**\n","x":920,"y":200,"width":289,"height":132},
+		{"id":"77ab9b650c4f04b9","type":"text","text":"### Минусы\nДолгое получение деталки, из-за групировок, можно попробовать групировать в коде \n","x":840,"y":-371,"width":289,"height":211},
+		{"id":"35677c10beb9a6da","type":"text","text":"### Вариант Реализации\n\nДумал сделать полная не полная анкета, но не очень потому что осн инфа будет в юзер инфо\n","x":1440,"y":-60,"width":289,"height":226},
+		{"id":"cbb0a0cf64328e40","type":"text","text":"### Минусы\nПроблема с тем что много полей в юзер инфо - 54, и по типу пересекаются\n","x":106,"y":-960,"width":289,"height":211},
+		{"id":"3af4a62c68f16ee2","type":"text","text":"### Реализация\n\nСкрипт sql который сгенерит темп таблицу с юзерами и инфой для них\n","x":631,"y":-1026,"width":289,"height":132},
+		{"id":"bcd3542d08965eb6","type":"text","text":"## Изменить таблицу юзер инфо\n\nСделать чтобы для одного айди юзера была 1 стока, с оответвенно будет 54 столбца в ней\n\nПосле сможем делатьменять стобцы типы, например для даты рождения\n","x":-80,"y":21,"width":289,"height":419}
+	],
+	"edges":[
+		{"id":"f3b839b91b6ff21d","fromNode":"cde21e2f12ec560f","fromSide":"right","toNode":"eccfc1a21370d3d9","toSide":"left"},
+		{"id":"f2409edd5dc6b192","fromNode":"eccfc1a21370d3d9","fromSide":"right","toNode":"d21079f56f79cd33","toSide":"left"},
+		{"id":"01f53ae0f6b5b43f","fromNode":"eccfc1a21370d3d9","fromSide":"right","toNode":"b88a545338c4689e","toSide":"left"},
+		{"id":"2febcbb06ddd1030","fromNode":"b88a545338c4689e","fromSide":"right","toNode":"1726447ae6fa7ecb","toSide":"top"},
+		{"id":"bd89cd37e7633216","fromNode":"b88a545338c4689e","fromSide":"bottom","toNode":"c8959bc298f2b57c","toSide":"top"},
+		{"id":"c5b7b058f4a38716","fromNode":"d21079f56f79cd33","fromSide":"right","toNode":"3af4a62c68f16ee2","toSide":"left"},
+		{"id":"cf6963aaf28ac1fb","fromNode":"b88a545338c4689e","fromSide":"right","toNode":"35677c10beb9a6da","toSide":"left"},
+		{"id":"a8c0cf53ed21ab99","fromNode":"b88a545338c4689e","fromSide":"top","toNode":"77ab9b650c4f04b9","toSide":"left"},
+		{"id":"ecca33fca4ca1ca4","fromNode":"d21079f56f79cd33","fromSide":"top","toNode":"cbb0a0cf64328e40","toSide":"bottom"},
+		{"id":"4602316caadade43","fromNode":"eccfc1a21370d3d9","fromSide":"bottom","toNode":"bcd3542d08965eb6","toSide":"top"}
+	]
+}

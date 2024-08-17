@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"af91915969413da9","x":-340,"y":-600,"width":380,"height":160,"type":"text","text":"**При мердже машин нет**\n2000-05-23\nДокумент - 166848 / 6160\n"},
+		{"id":"e3e7191adf83f137","x":-340,"y":-380,"width":380,"height":160,"type":"text","text":"В машине есть среди овнеров\nПанов Никита Николаевич\n1990-05-23\n\nДокумент - 013350 / 6515"},
+		{"id":"11331b8373341e60","x":-340,"y":-140,"width":380,"height":180,"type":"text","text":"**Мерж по документу**\nПопадет док 166848  "},
+		{"id":"a28b4c39543d9a69","x":100,"y":-760,"width":250,"height":60,"type":"text","text":"В РСА нет машин\n"},
+		{"id":"b190048bba0c18aa","type":"text","text":"В РСА есть машины\n","x":100,"y":-440,"width":250,"height":60},
+		{"id":"b297724c9ffae869","x":100,"y":-330,"width":250,"height":60,"type":"text","text":"в бд Анкет находит с 2000 годом"}
+	],
+	"edges":[
+		{"id":"6f0162a6ec17ed7f","fromNode":"af91915969413da9","fromSide":"right","toNode":"a28b4c39543d9a69","toSide":"left"},
+		{"id":"d7800b1e3a3495f2","fromNode":"e3e7191adf83f137","fromSide":"right","toNode":"b190048bba0c18aa","toSide":"left"},
+		{"id":"217fa12171404388","fromNode":"e3e7191adf83f137","fromSide":"right","toNode":"b297724c9ffae869","toSide":"left"}
+	]
+}

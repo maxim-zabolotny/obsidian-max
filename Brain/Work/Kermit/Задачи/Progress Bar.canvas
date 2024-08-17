@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"id":"c3f461d766045457","x":-460,"y":-179,"width":250,"height":60,"type":"text","text":"Поиск по параметрам"},
+		{"id":"8e1fff5d1d472d39","type":"text","text":"Эмит о начале поиска","x":-120,"y":-179,"width":250,"height":60},
+		{"id":"8d9d5dc867f66727","type":"text","text":"Поиск по параметрам","x":180,"y":-80,"width":250,"height":60},
+		{"id":"41883ca3aeecaaa7","x":180,"y":-280,"width":250,"height":60,"type":"text","text":"Поиск по фото"},
+		{"id":"2c228fe696e083cb","x":569,"y":-164,"width":250,"height":60,"type":"text","text":"Метод"}
+	],
+	"edges":[
+		{"id":"7420dcc24bff3c1e","fromNode":"c3f461d766045457","fromSide":"right","toNode":"8e1fff5d1d472d39","toSide":"left"},
+		{"id":"916b8e5623797868","fromNode":"8e1fff5d1d472d39","fromSide":"top","toNode":"41883ca3aeecaaa7","toSide":"left"},
+		{"id":"9883f1a702faf91e","fromNode":"8e1fff5d1d472d39","fromSide":"bottom","toNode":"8d9d5dc867f66727","toSide":"left"}
+	]
+}

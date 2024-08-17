@@ -1,0 +1,8 @@
+{
+  "promptDelete": false,
+  "userIgnoreFilters": [
+    "Templates/"
+  ],
+  "attachmentFolderPath": "Файлы",
+  "alwaysUpdateLinks": true
+}
